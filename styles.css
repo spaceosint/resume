@@ -22,7 +22,10 @@ a {
     font-weight:bold
 }
 .dancing {
-    display: inline-block;
+    display: block;
     height: auto;
-    max-width: 100%;
+    max-width: 80%;
 }
+/*@media screen and (min-width: 375px){*/
+
+/*}*/
