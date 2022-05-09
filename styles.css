@@ -21,3 +21,8 @@ a {
     font-size: x-large;
     font-weight:bold
 }
+.dancing {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
