@@ -118,7 +118,7 @@ if (window.location.hash) {
 
         education_head0.textContent =
             language.ru.education_head0;
-        education_head0.textContent =
+        education_head1.textContent =
             language.ru.education_head1;
         education0.textContent =
             language.ru.education0;
