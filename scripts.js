@@ -45,6 +45,8 @@ var language = {
 
         information0: "Коммуникабельный, исполнительный, пунктуальный, без вредных привычек, работа на результат. Быстро обучаюсь.",
         information1: "Желаемая работа: Помощник системного администратора или специалист по информационной безопасности. (Инфраструктура | Кибербезопасность)",
+        
+        send_button: "Отправить сообщение"
     },
     nl: {
         name: "Bogdan Spitsky",
@@ -84,6 +86,8 @@ var language = {
 
         information0: "Communicatief, uitvoerend, punctueel, zonder slechte gewoontes, werken aan resultaat. Snelle leerling.",
         information1: "Gewenste functie: Assistent systeembeheerder of informatiebeveiligingsspecialist. (Infrastructuur | Cyberbeveiliging)",
+        
+        send_button: "Stuur een bericht"
 
     }
 };
