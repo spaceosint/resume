@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resume Spytskyi Bohdan</title>
+    <title>CV</title>
 
     <!-- CSS -->
     <link type="text/css" href="styles.css" rel="stylesheet"/>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="shortcut icon" href="{% static 'fashion_boutique/images/main_logo.png' %}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="" type="image/x-icon"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- BOOTSTRAP 5.0 -->
@@ -25,126 +25,149 @@
 
 </head>
 <body>
+
 <div class="container">
     <div class="row align-items-center">
     <div class="col-sm-12">
         <div class="row">
+
+            <div class="col-sm-6 photo text-center">
+                <img class="photo" src="img.png" width="175px" >
+            </div>
             <div class="col-sm-6 text-center preview">
-                <p class="headline">Bogdan Spitskiy</p>
-                 15.06.2001(20 years old)
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Change Language
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('eng')">
+                            Change to English
+                        </button></li>
+                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('ru')">
+                            Изменить на Русский
+                        </button></li>
+                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('nl')">
+                            Verander naar Nederlands
+                        </button></li>
+                    </ul>
+                </div>
+
+
+
+                <p class="headline" id="F_name">Bogdan Spitskiy</p>
+                 <span id="years"> 15.06.2001(20 years old) </span>
                 <br>
-                Ukraine (Dnepr)
+                <span id="from"> Ukraine (Dnepr) </span>
                 <br>
-                +380 (66) 342-52-74
+                <span id="phone"> +380 (66) 342-52-74 </span>
 
             </div>
-            <div class="col-sm-6 img text-center">
-                <img src="img.png" height="175px" >
-            </div>
+
         </div>
-<div class="row description">
-        <div class="col-sm-3 text-center headline">Education:</div>
-    <div class="col-sm-7">
-        <table class="table">
-            <thead>
-            <tr>
-
-                <th scope="col">
-                    Date of enrolment/graduation
-                    institution
-                </th>
-                <th scope="col">Educational institution</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">2007 - 2018 </th>
-                <td>School SBU "Secondary School No. 28" Dnipro</td>
-            </tr>
-            <tr>
-                <th scope="row">2018 - up to now</th>
-                <td>RTU MIREA (full name: Federal State Budgetary Educational Institution
-                     of higher education MIREA
-                    [Information security]
-                </td>
-            </tr>
-            </tbody>
-        </table>
-
-    </div>
-</div>
-
         <div class="row description">
-            <div class="col-sm-3 text-center headline">Special skills:</div>
-            <div class="col-sm-7">
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <td>Knowledge of comprehensive information security.</td>
-                    </tr>
-                    <tr>
-                        <td>Junior level programming languages: C, C++, C#, Python.</td>
-                    </tr>
-                    <tr>
-                        <td>Database management system: SQLite, PostgreSQL.</td>
-                    </tr>
-                    <tr>
-                        <td>Hypertext markup language (HTML) and templating Jinja</td>
-                    </tr>
-                    <tr>
-                        <td>Working with the Django framework</td>
-                    </tr>
-                    <tr>
-                        <td>Skills in handling computer components (disassembly, repair, replacement) </td>
-                    </tr>
-                    <tr>
-                        <td>System administrator skills (Windows server [Active directory DHCP/DNS]) </td>
-                    </tr>
-                    </tbody>
-                </table>
-
-            </div>
-        </div>
-
-
-
-
-        <div class="row description">
-            <div class="col-sm-3 text-center headline">Work activities:</div>
+            <div class="col-sm-3 text-center headline" id="description0">Education:</div>
             <div class="col-sm-7">
                 <table class="table">
                     <thead>
                     <tr>
 
-                        <th scope="col">Period of operation</th>
-                        <th scope="col">Place of work </th>
-                        <th scope="col">Position </th>
+                        <th scope="col" id="education_head0">
+                            Date of enrolment/graduation
+                            institution
+                        </th>
+                        <th scope="col" id="education_head1">Educational institution</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">2007 - 2018 </th>
+                        <td id="education0">School SBU "Secondary School No. 28" Dnipro</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2018 - 24.03.2022</th>
+                        <td id="education1">RTU MIREA (full name: Federal State Budgetary Educational Institution
+                            of higher education MIREA
+                            [Information security]
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+        </div>
+
+        <div class="row description">
+            <div class="col-sm-3 text-center headline" id="description1">Special skills:</div>
+            <div class="col-sm-7">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td id="skills0">Knowledge of comprehensive information security.</td>
+                    </tr>
+                    <tr>
+                        <td id="skills1">Junior level programming languages: C, C++, C#, Python.</td>
+                    </tr>
+                    <tr>
+                        <td id="skills2">Database management system: SQLite, PostgreSQL.</td>
+                    </tr>
+                    <tr>
+                        <td id="skills3">Hypertext markup language (HTML) and templating Jinja</td>
+                    </tr>
+                    <tr>
+                        <td id="skills4">Working with the Django framework</td>
+                    </tr>
+                    <tr>
+                        <td id="skills5">Skills in handling computer components (disassembly, repair, replacement) </td>
+                    </tr>
+                    <tr>
+                        <td id="skills6">System administrator skills (Windows server [Active directory DHCP/DNS]) </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="row description">
+            <div class="col-sm-3 text-center headline" id="description2">Work activities:</div>
+            <div class="col-sm-7">
+                <table class="table">
+                    <thead>
+                    <tr>
+
+                        <th scope="col" id="work_head0">Work period</th>
+                        <th scope="col" id="work_head1">Place of work </th>
+                        <th scope="col" id="work_head2">Position </th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <th scope="row">08.06.2016 - 04.07.2016 </th>
-                        <td>KIT - Game Development</td>
-                        <td>Developer</td>
+                        <td id="work0">KIT - Game Development</td>
+                        <td id="work0_">Developer</td>
                     </tr>
                     <tr>
                         <th scope="row">23.07.2017 - 06.07.2018</th>
-                        <td>IAS - Small Academy of Sciences</td>
-                        <td>Project leader</td>
+                        <td id="work1">IAS - Small Academy of Sciences</td>
+                        <td id="work1_">Project leader</td>
                     </tr>
                     <tr>
                         <th scope="row">14.07.2018 - 17.01.2020 </th>
-                        <td>Tavria-auto, ARTLIFE Fitness Centre Development of webpages. Consulting of employees on work with computers. Maintenance and repair of office equipment. Software troubleshooting.</td>
-                        <td>Freelancer</td>
+                        <td id="work2">Tavria-auto, ARTLIFE Fitness Centre Development of webpages. Consulting of employees on work with computers. Maintenance and repair of office equipment. Software troubleshooting.</td>
+                        <td id="work2_">Freelancer</td>
                     </tr>
                     <tr>
                         <th scope="row">25.08.2020 - 24.03.2022 </th>
-                        <td>Wholesale and retail company of sports nutrition and clothing KingStar. Developed and implemented information security strategies. Promptly resolved technical PC and network problems. Designed, implemented and maintained new IT solutions. Eliminated the effects of a virus infection in the shortest possible time. Administration of windows server.
+                        <td id="work3">Wholesale and retail company of sports nutrition and clothing KingStar. Developed and implemented information security strategies. Promptly resolved technical PC and network problems. Designed, implemented and maintained new IT solutions. Eliminated the effects of a virus infection in the shortest possible time. Administration of windows server.
 
                         </td>
-                        <td>Deputy
-                            Director
-                        </td>
+                        <td id="work3_">Deputy Director</td>
                     </tr>
                     </tbody>
                 </table>
@@ -155,24 +178,25 @@
 
 
         <div class="row description">
-            <div class="col-sm-3 text-center headline">Further information:</div>
+            <div class="col-sm-3 text-center headline" id="description3">Further information:</div>
             <div class="col-sm-7">
                 <table class="table">
                     <tbody>
                     <tr>
-                        <td>Communicative, executive, punctual, without bad habits, work for results. Learn quicly.</td>
+                        <td id="information0">Communicative, executive, punctual, without bad habits, work for results. Learn quickly.</td>
                     </tr>
                     <tr>
-                        <td>Desired job: Assistant system administrator or information security specialist. (Infrastructure | Cybersecurity)</td>
+                        <td id="information1">Desired job: Assistant system administrator or information security specialist. (Infrastructure | Cybersecurity)</td>
                     </tr>
                     </tbody>
                 </table>
 
             </div>
         </div>
-
-   <img src="dancing.gif" class="rounded mx-auto d-block dancing" alt="..." >
-
+        <div class="text-center">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Message</button>
+            <img src="dancing.gif" class="rounded mx-auto d-block dancing" alt="..." >
+        </div>
 
 
     </div>
@@ -182,6 +206,41 @@
 </div>
 
 
+<form target="_blank" action="https://formsubmit.co/osintmantemp@gmail.com" method="POST">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Email:</label>
+                        <input type="email" name="email" class="form-control" id="recipient-name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" >Send message</button>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+
+
+
+    <script src="scripts.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        crossOrigin="anonymous"></script>
 
 
 </body>
