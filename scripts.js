@@ -16,7 +16,7 @@ var language = {
         description0: "Образование:",
         description1: "Особые навыки:",
         description2: "Рабочая деятельность:",
-        description3: "Дальнейшая информация:",
+        description3: "Дополнительная информация:",
 
         education_head0: "Дата зачисления/окончания учебного заведения",
         education_head1: "Образовательное учреждение",
