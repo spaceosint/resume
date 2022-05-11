@@ -167,6 +167,9 @@ if (window.location.hash) {
             language.ru.information0;
         information1.textContent =
             language.ru.information1;
+        
+        send_button.textContent =
+            language.ru.send_button;
 
     }
     else if (window.location.hash == "#nl") {
@@ -239,6 +242,9 @@ if (window.location.hash) {
             language.nl.information0;
         information1.textContent =
             language.nl.information1;
+        
+        send_button.textContent =
+            language.nl.send_button;
     }
 
 }
