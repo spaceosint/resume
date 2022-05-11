@@ -79,7 +79,7 @@ var language = {
         work1_: "Projectleider",
         work2: "Tavria-auto, ARTLIFE Fitnesscentrum Ontwikkeling van webpagina's. Adviseren van medewerkers bij het werken met computers. Onderhoud en reparatie van kantoorapparatuur. Softwareproblemen oplossen.",
         work2_: "Freelancer",
-        work3: "Groot- en detailhandel in sportvoeding en kleding KingStar. Ontwikkelen en implementeren van informatiebeveiligingsstrategieën. Snel technische pc- en netwerkproblemen opgelost. Nieuwe IT-oplossingen ontworpen, geïmplementeerd en onderhouden. Elimineerde de effecten van een virusinfectie in de kortst mogelijke tijd. Beheer van Windows-server.",
+        work3: "Groot- en detailhandel in sportvoeding en kleding KingStar. Ontwikkelen en implementeren van informatiebeveiliging strategieën. Snel technische pc- en netwerkproblemen opgelost. Nieuwe IT-oplossingen ontworpen, geïmplementeerd en onderhouden. Elimineerde de effecten van een virusinfectie in de kortst mogelijke tijd. Beheer van Windows-server.",
         work3_: "Adjunct-directeur",
 
         information0: "Communicatief, uitvoerend, punctueel, zonder slechte gewoontes, werken aan resultaat. Snelle leerling.",
