@@ -10,8 +10,8 @@ var language = {
     ru: {
         name: "Богдан Спицкий",
         year: "15.06.2001(20 лет)",
-        from: "Украина (Днепр)",
-        phone: "+380 (66) 342-52-74",
+        from: "Нидерланды (Гаага)",
+        phone: "(063) 897 69-92",
 
         description0: "Образование:",
         description1: "Особые навыки:",
@@ -51,8 +51,8 @@ var language = {
     nl: {
         name: "Bogdan Spitsky",
         year: "15.06.2001(20 jaar oud)",
-        from: "Oekraïne (Dnepr)",
-        phone: "+380 (66) 342-52-74",
+        from: "Nederland (Den Haag)",
+        phone: "(063) 897 69-92",
 
         description0: "Opleiding:",
         description1: "Speciale vaardigheden:",
