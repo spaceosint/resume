@@ -73,7 +73,7 @@ var language = {
         skills6: "Vaardigheden systeembeheerder (Windows-server [Active directory DHCP/DNS])",
 
         work_head0: "Werk periode",
-        work_head1: "Werkplaats",
+        work_head1: "Werkgever",
         work_head2: "Positie",
         work0: "KIT - Spelontwikkeling",
         work0_: "Ontwikkelaar",
