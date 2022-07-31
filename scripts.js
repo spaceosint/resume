@@ -9,7 +9,7 @@ function changeLanguage(lang) {
 var language = {
     ru: {
         name: "Богдан Спицкий",
-        year: "15.06.2001(20 лет)",
+        year: "15.06.2001(21 год)",
         from: "Нидерланды (Гаага)",
         phone: "(063) 897 69-92",
 
@@ -23,13 +23,13 @@ var language = {
         education0: "Школа СБУ \"Средняя общеобразовательная школа №28\" Днепр",
         education1: "РТУ МИРЭА (полное наименование: ФГБОУ ВО МИРЭА [Информационная безопасность]",
 
-        skills0: "Знание комплексной защиты информации.",
-        skills1: "Языки программирования Junior: C, C++, C#, Python.",
-        skills2: "Система управления базами данных: SQLite, PostgreSQL.",
-        skills3: "Язык гипертекстовой разметки (HTML) и шаблонизация Jinja",
-        skills4: "Работа с фреймворком Django.",
-        skills5: "Навыки обращения с компьютерными комплектующими (разборка, ремонт, замена)",
-        skills6: "Навыки системного администратора (сервер Windows [Active Directory DHCP/DNS])",
+        // skills0: "Знание комплексной защиты информации.",
+        // skills1: "Языки программирования Junior: C, C++, C#, Python.",
+        // skills2: "Система управления базами данных: SQLite, PostgreSQL.",
+        // skills3: "Язык гипертекстовой разметки (HTML) и шаблонизация Jinja",
+        // skills4: "Работа с фреймворком Django.",
+        // skills5: "Навыки обращения с компьютерными комплектующими (разборка, ремонт, замена)",
+        // skills6: "Навыки системного администратора (сервер Windows [Active Directory DHCP/DNS])",
 
         work_head0: "Период работы",
         work_head1: "Место работы",
@@ -44,13 +44,13 @@ var language = {
         work3_: "Заместитель директора",
 
         information0: "Коммуникабельный, исполнительный, пунктуальный, без вредных привычек, работаю на результат. Быстро обучаюсь.",
-        information1: "Желаемая работа: Помощник системного администратора или специалист по информационной безопасности. (Инфраструктура | Кибербезопасность)",
+        information1: "Желаемая работа: Junior react developer",
         
         send_button: "Отправить сообщение"
     },
     nl: {
         name: "Bogdan Spitsky",
-        year: "15.06.2001(20 jaar oud)",
+        year: "15.06.2001(21 jaar oud)",
         from: "Nederland (Den Haag)",
         phone: "(063) 897 69-92",
 
@@ -64,13 +64,13 @@ var language = {
         education0: "School SBU \"Secundaire school nr. 28\" Dnipro",
         education1: "RTU MIREA (volledige naam: Federale Staatsbegrotingsinstelling voor hoger onderwijs MIREA [Informatiebeveiliging]",
 
-        skills0: "Kennis van uitgebreide informatiebeveiliging.",
-        skills1: "Programmeertalen op juniorniveau: C, C++, C#, Python.",
-        skills2: "Databasebeheersysteem: SQLite, PostgreSQL.",
-        skills3: "Hypertext-opmaaktaal (HTML) en sjablonen Jinja",
-        skills4: "Werken met het Django-framework",
-        skills5: "Vaardigheden in het omgaan met computercomponenten (demontage, reparatie, vervanging)",
-        skills6: "Vaardigheden systeembeheerder (Windows-server [Active directory DHCP/DNS])",
+        // skills0: "Kennis van uitgebreide informatiebeveiliging.",
+        // skills1: "Programmeertalen op juniorniveau: C, C++, C#, Python.",
+        // skills2: "Databasebeheersysteem: SQLite, PostgreSQL.",
+        // skills3: "Hypertext-opmaaktaal (HTML) en sjablonen Jinja",
+        // skills4: "Werken met het Django-framework",
+        // skills5: "Vaardigheden in het omgaan met computercomponenten (demontage, reparatie, vervanging)",
+        // skills6: "Vaardigheden systeembeheerder (Windows-server [Active directory DHCP/DNS])",
 
         work_head0: "Werk periode",
         work_head1: "Werkgever",
@@ -85,7 +85,7 @@ var language = {
         work3_: "Adjunct-directeur",
 
         information0: "Communicatief, uitvoerend, punctueel, zonder slechte gewoontes, werken aan resultaat. Snelle leerling.",
-        information1: "Gewenste functie: Assistent systeembeheerder of informatiebeveiligingsspecialist. (Infrastructuur | Cyberbeveiliging)",
+        information1: "Gewenste functie: Junior react developer",
         
         send_button: "Stuur een bericht"
 
@@ -125,20 +125,20 @@ if (window.location.hash) {
         education1.textContent =
             language.ru.education1;
 
-        skills0.textContent =
-            language.ru.skills0;
-        skills1.textContent =
-            language.ru.skills1;
-        skills2.textContent =
-            language.ru.skills2;
-        skills3.textContent =
-            language.ru.skills3;
-        skills4.textContent =
-            language.ru.skills4;
-        skills5.textContent =
-            language.ru.skills5;
-        skills6.textContent =
-            language.ru.skills6;
+        // skills0.textContent =
+        //     language.ru.skills0;
+        // skills1.textContent =
+        //     language.ru.skills1;
+        // skills2.textContent =
+        //     language.ru.skills2;
+        // skills3.textContent =
+        //     language.ru.skills3;
+        // skills4.textContent =
+        //     language.ru.skills4;
+        // skills5.textContent =
+        //     language.ru.skills5;
+        // skills6.textContent =
+        //     language.ru.skills6;
 
         work_head0.textContent =
             language.ru.work_head0;
@@ -200,20 +200,20 @@ if (window.location.hash) {
         education1.textContent =
             language.nl.education1;
 
-        skills0.textContent =
-            language.nl.skills0;
-        skills1.textContent =
-            language.nl.skills1;
-        skills2.textContent =
-            language.nl.skills2;
-        skills3.textContent =
-            language.nl.skills3;
-        skills4.textContent =
-            language.nl.skills4;
-        skills5.textContent =
-            language.nl.skills5;
-        skills6.textContent =
-            language.nl.skills6;
+        // skills0.textContent =
+        //     language.nl.skills0;
+        // skills1.textContent =
+        //     language.nl.skills1;
+        // skills2.textContent =
+        //     language.nl.skills2;
+        // skills3.textContent =
+        //     language.nl.skills3;
+        // skills4.textContent =
+        //     language.nl.skills4;
+        // skills5.textContent =
+        //     language.nl.skills5;
+        // skills6.textContent =
+        //     language.nl.skills6;
 
         work_head0.textContent =
             language.nl.work_head0;
