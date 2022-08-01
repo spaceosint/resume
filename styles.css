@@ -5,6 +5,7 @@ html, body {
     height: 100%;
     width: 100%;
     color: #444;
+
 }
 a {
     color: steelblue;
@@ -27,7 +28,12 @@ a {
     max-width: 80%;
 }
 .photo{
-    padding-top: 25px;
+    max-width: 250px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 7px 2px 7px #777;
+
 }
 /*@media screen and (min-width: 375px){*/
 
