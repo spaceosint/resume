@@ -22,192 +22,172 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital@0;1&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 <div class="container">
     <div class="row align-items-center">
-    <div class="col-sm-12">
+    <div class="col-sm-13">
         <div class="row">
+            <div class="col-sm-3 border left-bar">
+                <img class="col-sm-12" src="person.jpg">
 
-            <div class="col-sm-6  text-center">
-                <img class="photo" src="person.jpg" >
-            </div>
-            <div class="col-sm-6 text-center preview">
-
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                        Change Language
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('eng')">
-                            Change to English
-                        </button></li>
-                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('ru')">
-                            Изменить на Русский
-                        </button></li>
-                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('nl')">
-                            Verander naar Nederlands
-                        </button></li>
+                <div>
+                        <h2><b>Contact</b></h2>
+                        <span id="contacts">
+                                <p> +31 (063) 897-5013 </p>
+                                <p> osintmanmain@gmail.com
+                                    <span data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" >send me</span>
+                                </p>
+                                <p><a href="https://github.com/spaceosint"> github.com/spaceosint </a></p>
+                        </span>
+                </div>
+                <div>
+                    <h2><b>Technical Skills</b></h2>
+                    <ul>
+                        <li>
+                            HTML/CSS
+                        </li>
+                        <li>
+                            JavaScript/JQuery
+                        </li>
+                        <li>
+                            ReactJS, Redux
+                        </li>
+                        <li>
+                            TypeScript
+                        </li>
+                        <li>
+                            Version Control/GIT
+                        </li>
+                        <li>
+                            Bootstrap
+                        </li>
+                        <li>
+                            Testing/Debugging
+                        </li>
+                        <li>
+                            Python, Django
+                        </li>
                     </ul>
                 </div>
+                <div>
+                    <h2><b>Skills</b></h2>
+                    <ul>
+                        <li>
+                            Team management
+                        </li>
+                        <li>
+                            Problem resolution
+                        </li>
+                        <li>
+                            Communications
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <div class="col-sm-7 border-right right-bar">
 
+                    <div class="text-center right-bar-header">
+                        <h1>Bogdan <b>Spytskyi</b></h1>
+                        <p>Junior ReactJS Developer </p>
+                    </div>
+                    <div>
+                        <h2><b>Summary</b></h2>
+                        <p>
+                                I got acquainted with the IT world at school (Pascal, html, css).
+                                I entered the university for "information security". At the
+                                university I got acquainted with the programming languages
+                                С/С++, Python, JS, Assembly. Implemented a couple of projects
+                                on the Django framework
+                            <a href="https://github.com/spaceosint/OsintsSite">1</a>,
+                            <a href="https://github.com/spaceosint/PassControlSystem">2</a>. I am currently doing front end
+                                development using the React framework. And I want to further
+                                develop in this area.
+                        </p>
+                    </div>
+                    <div>
+                        <h2><b>Experience</b></h2>
+                        <span>
+                                <b>Moderator/developer – 25.08.20 to 24.03.22
+                               <p> KINGSTAR, Moscow </p></b>
+                        </span>
+                        <ul>
+                            <li>
+                                Wholesale and retail company of sports nutrition and
+                                clothing KingStar.
+                            </li>
+                            <li>
+                                Support site, adding user interfaces.
+                            </li>
+                        </ul>
 
+                        <span>
+                            <b>Implemented a <a href="https://github.com/spaceosint/SOCIAL-NETWORK" >social networking</a> project.</b>
+                        </span>
+                        <p></p>
+                        <ul>
+                            <li>
+                                I made my own Redux to better understand how the
+                                library works, later I worked with react-redux.
+                            </li>
+                            <li>
+                                Project built on FLUX architecture.
+                            </li>
+                            <li>
+                                The social network used the following libraries: axios,
+                                react-redux, redux-form, redux-thunk, react-test-
+                                renderer, type-script.
+                            </li>
+                            <li>
+                                In the future I plan to add: formik, reselect.
+                            </li>
+                            <li>
+                               <a href="https://social-network.samuraijs.com/docs"> Backend API.</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2><b>Education</b></h2>
+                        <span>
+                              <p> MIREA University. Information security specialist.</p>
+                        </span>
+                    </div>
 
-                <p class="headline" id="F_name">Bogdan Spitskiy</p>
-                 <span id="years"> 15.06.2001(21 years old) </span>
-                <br>
-                <span id="from"> Nederland (Den Haag) </span>
-                <br>
-                <span id="phone"> (063) 897 69-92 </span>
+                </div>
+
+            <div class="col-sm-2 text-center">
+<!--                <div class="dropdown my-btn">-->
+<!--                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">-->
+<!--                        Change Language-->
+<!--                    </button>-->
+<!--                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">-->
+<!--                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('eng')">-->
+<!--                            English-->
+<!--                        </button></li>-->
+<!--                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('ru')">-->
+<!--                            Русский-->
+<!--                        </button></li>-->
+<!--                        <li> <button class="dropdown-item" type="button" onclick="changeLanguage('nl')">-->
+<!--                            Nederland-->
+<!--                        </button></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+                <div class="my-btn">
+                <a href="./resume.pdf" download>
+                    <button class="btn btn-secondary">
+                        Download PDF version
+                    </button>
+                    </a>
+                </div>
 
             </div>
 
-        </div>
-        <div class="row description">
-            <div class="col-sm-3 text-center headline" id="description0">Education:</div>
-            <div class="col-sm-7">
-                <table class="table">
-                    <thead>
-                    <tr>
-
-                        <th scope="col" id="education_head0">
-                            Date of enrolment/graduation
-                            institution
-                        </th>
-                        <th scope="col" id="education_head1">Educational institution</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th scope="row">2007 - 2018 </th>
-                        <td id="education0">School SBU "Secondary School No. 28" Dnipro</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2018 - 24.03.2022</th>
-                        <td id="education1">RTU MIREA (full name: Federal State Budgetary Educational Institution
-                            of higher education MIREA
-                            [Information security]
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-
-            </div>
 
 
         </div>
-
-        <div class="row description">
-            <div class="col-sm-3 text-center headline" id="description1">Special skills:</div>
-            <div class="col-sm-7">
-                <table class="table">
-                    <tbody>
-<!--                    <tr>-->
-<!--                        <td id="skills0">Knowledge of comprehensive information security.</td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td id="skills1">Junior level programming languages: C, C++, C#, Python.</td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td id="skills2">Database management system: SQLite, PostgreSQL.</td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td id="skills3">Hypertext markup language (HTML) and templating Jinja</td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td id="skills4">Working with the Django framework <a href="https://github.com/spaceosint/OsintsSite">OsintSite</a> <a href="https://github.com/spaceosint/PassControlSystem">PassControlSystem</a></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td id="skills5">Skills in handling computer components (disassembly, repair, replacement) </td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td id="skills6">System administrator skills (Windows server [Active directory DHCP/DNS]) </td>-->
-<!--                    </tr>-->
-                        <tr>
-
-                            <td id="skills7">Junior react developer. Project: <a href="https://github.com/spaceosint/SOCIAL-NETWORK">Social-Network</a> </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-            </div>
-        </div>
-
-
-
-
-        <div class="row description">
-            <div class="col-sm-3 text-center headline" id="description2">Work activities:</div>
-            <div class="col-sm-7">
-                <table class="table">
-                    <thead>
-                    <tr>
-
-                        <th scope="col" id="work_head0">Work period</th>
-                        <th scope="col" id="work_head1">Place of work </th>
-                        <th scope="col" id="work_head2">Position </th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th scope="row">08.06.2016 - 04.07.2016 </th>
-                        <td id="work0">KIT - Game Development</td>
-                        <td id="work0_">Developer</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">23.07.2017 - 06.07.2018</th>
-                        <td id="work1">IAS - Small Academy of Sciences</td>
-                        <td id="work1_">Project leader</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">14.07.2018 - 17.01.2020 </th>
-                        <td id="work2">Tavria-auto, ARTLIFE Fitness Centre Development of webpages. Consulting of employees on work with computers. Maintenance and repair of office equipment. Software troubleshooting.</td>
-                        <td id="work2_">Freelancer</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">25.08.2020 - 24.03.2022 </th>
-                        <td id="work3">Wholesale and retail company of sports nutrition and clothing KingStar. Developed and implemented information security strategies. Promptly resolved technical PC and network problems. Designed, implemented and maintained new IT solutions. Eliminated the effects of a virus infection in the shortest possible time. Administration of windows server.
-
-                        </td>
-                        <td id="work3_">Deputy Director</td>
-                    </tr>
-                    </tbody>
-                </table>
-
-            </div>
-        </div>
-
-
-
-        <div class="row description">
-            <div class="col-sm-3 text-center headline" id="description3">Further information:</div>
-            <div class="col-sm-7">
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <td id="information0">Communicative, executive, punctual, without bad habits, work for results. Learn quickly.</td>
-                    </tr>
-                    <tr>
-                        <td id="information1">Desired job: Junior react developer</td>
-                    </tr>
-                    </tbody>
-                </table>
-
-            </div>
-        </div>
-        <div class="text-center">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="send_button">Send me a message</button>
-            <img src="dancing.gif" class="rounded mx-auto d-block dancing" alt="..."  onclick="new Audio('Sound_02867.mp3').play()">
-    
-        </div>
-
-
     </div>
-</div>
-
-
 </div>
 
 
@@ -227,7 +207,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="recipient-name" class="col-form-label">Email:</label>
-                        <input type="email" name="email" class="form-control" id="recipient-name" required>
+                        <input type="email" name="email" class="form-control" id="recipient-email" required>
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Message:</label>
@@ -244,7 +224,7 @@
 </div>
 </form>
 
-
+</div>
 
     <script src="scripts.js"></script>
 

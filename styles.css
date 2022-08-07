@@ -1,40 +1,119 @@
 html, body {
-    font-family: 'Arial';
+    font-family: "Calibri", sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     color: #444;
-
-}
-a {
-    color: steelblue;
-    text-decoration: none;
 }
 
-.preview{
-    padding: 50px 0 0 300px;
-}
-.description{
-    padding-top: 25px;
-}
-.headline{
-    font-size: x-large;
-    font-weight:bold
-}
-.dancing {
-    display: block;
-    height: auto;
-    max-width: 80%;
-}
-.photo{
-    max-width: 250px;
-    margin-top: 10px;
-    border-radius: 50px;
-    border: 1px solid black;
-    box-shadow: 7px 2px 7px #777;
+/*}*/
 
-}
+
+/*.preview{*/
+/*    padding: 50px 0 0 300px;*/
+/*}*/
+/*.description{*/
+/*    padding-top: 25px;*/
+/*}*/
+/*.headline{*/
+/*    font-size: x-large;*/
+/*    font-weight:bold*/
+/*}*/
+/*.dancing {*/
+/*    display: block;*/
+/*    height: auto;*/
+/*    max-width: 80%;*/
+/*}*/
+/*.photo{*/
+/*    max-width: 250px;*/
+/*    margin-top: 10px;*/
+/*    border-radius: 50px;*/
+/*    border: 1px solid black;*/
+/*    box-shadow: 7px 2px 7px #777;*/
+
+/*}*/
 /*@media screen and (min-width: 375px){*/
 
 /*}*/
+/*left bar*/
+h1{
+    font-family: "Arial", sans-serif;
+}
+h1 b{
+    font-family: "Arial Black", sans-serif;
+}
+h2{
+    font-family: "Arial Black", sans-serif;
+}
+
+.left-bar{
+    background-color: darkslategray;
+    color: white;
+}
+.left-bar a{
+    color: white;
+    text-decoration: underline;
+}
+.left-bar a:visited{
+    color: white;
+}
+.left-bar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.left-bar #contacts{
+    font-family: "Calibri Light", sans-serif;
+}
+.left-bar #contacts p{
+    margin-bottom: 2px;
+}
+.left-bar #contacts span{
+    background-color: seagreen;
+    float: right;
+    user-select: none;
+    padding: 1px 6px;
+    cursor: pointer;
+}
+.left-bar #contacts span:hover{
+  color: darkslategray;
+}
+.left-bar h2{
+    padding-bottom: 4px;
+    border-bottom: white solid 3px;
+}
+.left-bar div{
+    margin: 30px 0 30px 0;
+}
+.left-bar img{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border: white solid 1px;
+
+}
+/*right bar*/
+.right-bar{
+
+    color: darkslategray;
+}
+.right-bar h2{
+    padding-bottom: 4px;
+    border-bottom: darkslategray solid 3px;
+}
+.right-bar-header{
+    margin: 40px 0 50px 0;
+}
+.right-bar-header h1{
+    font-size: 55px;
+}
+.right-bar-header p{
+    font-size: 28px;
+    font-style: italic;
+}
+.right-bar p{
+    text-indent: 20px;
+}
+.my-btn{
+    margin: 20px 0 20px 0;
+}
